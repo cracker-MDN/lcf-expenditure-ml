@@ -1,0 +1,7 @@
+Setting,Model,Weighted test R2 (unweighted fit),Weighted test R2 (weighted fit)
+A,Linear regression,0.428,0.428
+A,Random forest,0.424,0.421
+A,XGBoost,0.428,0.427
+B,Linear regression,0.556,0.556
+B,Random forest,0.557,0.556
+B,XGBoost,0.568,0.569

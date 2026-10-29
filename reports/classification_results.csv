@@ -1,0 +1,8 @@
+Setting,Model,CV macro F1 (train),Test Accuracy,Test Macro precision,Test Macro recall,Test Macro F1,Best settings
+-,Dummy (most common group),,0.306,0.102,0.333,0.156,-
+A,Logistic regression,0.605,0.615,0.627,0.616,0.62,{'model__C': 1}
+A,Random forest,0.602,0.603,0.612,0.606,0.607,"{'model__max_depth': 10, 'model__min_samples_leaf': 10}"
+A,k-NN,0.597,0.614,0.628,0.616,0.62,{'model__n_neighbors': 50}
+B,Logistic regression,0.657,0.673,0.671,0.674,0.672,{'model__C': 1}
+B,Random forest,0.655,0.667,0.669,0.667,0.668,"{'model__max_depth': 10, 'model__min_samples_leaf': 5}"
+B,k-NN,0.638,0.651,0.646,0.653,0.649,{'model__n_neighbors': 25}

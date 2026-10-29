@@ -1,0 +1,7 @@
+Setting,Model,Weighted test macro F1 (unweighted fit),Weighted test macro F1 (weighted fit)
+A,Logistic regression,0.628,0.633
+A,Random forest,0.613,0.613
+A,k-NN,0.623,
+B,Logistic regression,0.674,0.68
+B,Random forest,0.671,0.668
+B,k-NN,0.656,

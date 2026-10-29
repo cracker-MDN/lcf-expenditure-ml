@@ -1,0 +1,76 @@
+Task,Setting,Model,Variable,Label,Importance,Std
+regression,A,Linear regression,A094r,Occupational class,0.2123,0.0172
+regression,A,Linear regression,A121r,Tenure,0.0552,0.0094
+regression,A,Linear regression,G018r,Number of adults,0.2958,0.0177
+regression,A,Linear regression,G019r,Number of children,0.0267,0.0044
+regression,A,Random forest,A094r,Occupational class,0.2018,0.0161
+regression,A,Random forest,A121r,Tenure,0.0617,0.0112
+regression,A,Random forest,G018r,Number of adults,0.3122,0.019
+regression,A,Random forest,G019r,Number of children,0.0229,0.0044
+regression,A,XGBoost,A094r,Occupational class,0.2,0.0169
+regression,A,XGBoost,A121r,Tenure,0.0611,0.0111
+regression,A,XGBoost,G018r,Number of adults,0.2961,0.017
+regression,A,XGBoost,G019r,Number of children,0.0268,0.005
+classification,A,Logistic regression,A094r,Occupational class,0.1045,0.0097
+classification,A,Logistic regression,A121r,Tenure,0.0313,0.0058
+classification,A,Logistic regression,G018r,Number of adults,0.1452,0.0132
+classification,A,Logistic regression,G019r,Number of children,0.0151,0.0056
+classification,A,Random forest,A094r,Occupational class,0.0898,0.0087
+classification,A,Random forest,A121r,Tenure,0.0308,0.0076
+classification,A,Random forest,G018r,Number of adults,0.1534,0.0122
+classification,A,Random forest,G019r,Number of children,0.01,0.0057
+regression,B,Linear regression,income,Income,0.5629,0.0282
+regression,B,Linear regression,maininc,Main income source,0.0044,0.0021
+regression,B,Linear regression,A172,Internet connection,0.0159,0.0039
+regression,B,Linear regression,A093r,Economic position,0.0029,0.002
+regression,B,Linear regression,A094r,Occupational class,0.0334,0.0046
+regression,B,Linear regression,A121r,Tenure,0.0088,0.0028
+regression,B,Linear regression,SexHRP,Sex of reference person,0.0003,0.0007
+regression,B,Linear regression,hhsize,Household size,0.0625,0.0066
+regression,B,Linear regression,G018r,Number of adults,0.0083,0.0014
+regression,B,Linear regression,G019r,Number of children,0.0063,0.0025
+regression,B,Linear regression,Gorx,Region,0.0056,0.0024
+regression,B,Random forest,income,Income,0.6886,0.0335
+regression,B,Random forest,maininc,Main income source,0.0008,0.0004
+regression,B,Random forest,A172,Internet connection,0.0132,0.0025
+regression,B,Random forest,A093r,Economic position,0.0028,0.0009
+regression,B,Random forest,A094r,Occupational class,0.0067,0.0012
+regression,B,Random forest,A121r,Tenure,0.0033,0.0009
+regression,B,Random forest,SexHRP,Sex of reference person,0.0008,0.0004
+regression,B,Random forest,hhsize,Household size,0.0212,0.004
+regression,B,Random forest,G018r,Number of adults,0.0175,0.0023
+regression,B,Random forest,G019r,Number of children,0.0016,0.001
+regression,B,Random forest,Gorx,Region,0.0011,0.0009
+regression,B,XGBoost,income,Income,0.5791,0.0286
+regression,B,XGBoost,maininc,Main income source,0.0028,0.0009
+regression,B,XGBoost,A172,Internet connection,0.0208,0.0043
+regression,B,XGBoost,A093r,Economic position,0.001,0.0003
+regression,B,XGBoost,A094r,Occupational class,0.0159,0.0023
+regression,B,XGBoost,A121r,Tenure,0.009,0.0023
+regression,B,XGBoost,SexHRP,Sex of reference person,-0.0,0.0003
+regression,B,XGBoost,hhsize,Household size,0.0267,0.0032
+regression,B,XGBoost,G018r,Number of adults,0.0208,0.0024
+regression,B,XGBoost,G019r,Number of children,0.0005,0.0005
+regression,B,XGBoost,Gorx,Region,0.0027,0.0014
+classification,B,Logistic regression,income,Income,0.2122,0.0148
+classification,B,Logistic regression,maininc,Main income source,0.0052,0.0059
+classification,B,Logistic regression,A172,Internet connection,0.0082,0.0047
+classification,B,Logistic regression,A093r,Economic position,0.0034,0.005
+classification,B,Logistic regression,A094r,Occupational class,0.0128,0.0057
+classification,B,Logistic regression,A121r,Tenure,0.004,0.0045
+classification,B,Logistic regression,SexHRP,Sex of reference person,-0.002,0.001
+classification,B,Logistic regression,hhsize,Household size,0.0204,0.0069
+classification,B,Logistic regression,G018r,Number of adults,0.0087,0.0042
+classification,B,Logistic regression,G019r,Number of children,0.0054,0.0033
+classification,B,Logistic regression,Gorx,Region,0.0109,0.0062
+classification,B,Random forest,income,Income,0.1342,0.0111
+classification,B,Random forest,maininc,Main income source,0.0005,0.0033
+classification,B,Random forest,A172,Internet connection,0.0172,0.0048
+classification,B,Random forest,A093r,Economic position,-0.0038,0.0036
+classification,B,Random forest,A094r,Occupational class,0.0095,0.0045
+classification,B,Random forest,A121r,Tenure,-0.001,0.0039
+classification,B,Random forest,SexHRP,Sex of reference person,-0.0059,0.0049
+classification,B,Random forest,hhsize,Household size,0.0017,0.006
+classification,B,Random forest,G018r,Number of adults,0.0098,0.0046
+classification,B,Random forest,G019r,Number of children,0.0023,0.0036
+classification,B,Random forest,Gorx,Region,0.0051,0.0029

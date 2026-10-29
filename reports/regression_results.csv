@@ -1,0 +1,8 @@
+Setting,Model,CV R2 (train),Test R2,Test RMSE,Test MAE,Best settings
+A,"ANOVA baseline (linear, 4 variables)",,0.416,222.136,170.814,-
+A,Linear regression,0.407,0.416,222.136,170.814,{}
+A,Random forest,0.403,0.412,222.756,172.166,"{'model__max_depth': 5, 'model__min_samples_leaf': 5}"
+A,XGBoost,0.411,0.415,222.252,170.665,"{'model__learning_rate': 0.03, 'model__max_depth': 2, 'model__n_estimators': 400}"
+B,Linear regression,0.54,0.554,194.058,145.059,{}
+B,Random forest,0.534,0.559,192.935,143.288,"{'model__max_depth': 5, 'model__min_samples_leaf': 10}"
+B,XGBoost,0.544,0.568,191.035,142.326,"{'model__learning_rate': 0.03, 'model__max_depth': 2, 'model__n_estimators': 400}"
