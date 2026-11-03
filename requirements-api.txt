@@ -1,0 +1,9 @@
+# Libraries needed by the API container (versions from the project environment).
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+joblib==1.6.0
+fastapi>=0.115
+uvicorn>=0.30

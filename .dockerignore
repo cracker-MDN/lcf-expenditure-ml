@@ -1,0 +1,12 @@
+.venv
+.git
+.pytest_cache
+__pycache__
+*.pyc
+notebooks
+reports
+tests
+app
+models
+requirements.txt
+requirements-lock.txt
