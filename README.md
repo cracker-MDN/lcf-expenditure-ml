@@ -14,6 +14,7 @@ python -m venv .venv
 .venv\Scripts\activate        # Windows
 source .venv/bin/activate     # macOS/Linux
 pip install -r requirements.txt
+python -m src.model           # trains and saves the models (needed by the tests and the app)
 pytest
 jupyter notebook notebooks/01_eda.ipynb
 ```
